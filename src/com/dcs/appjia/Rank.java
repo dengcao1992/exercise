@@ -9,8 +9,8 @@ public class Rank {
             return;
         }
         char[] inputChars = input.toCharArray();
-        sout(inputChars);
         rankString(inputChars, 0);
+        sout(inputChars);
     }
 
     private void rankString(char[] inputChars, int step){
